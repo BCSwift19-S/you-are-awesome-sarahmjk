@@ -28,8 +28,8 @@ class ViewController: UIViewController {
         bottomLabel.text = "Jenny"
     }
     @IBAction func clear(_ sender: UIButton) {
-        topLabel.text = ""
-        bottomLabel.text = ""
+        topLabel.text = "   "
+        bottomLabel.text = "  "
     }
 }
 
