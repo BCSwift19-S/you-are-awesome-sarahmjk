@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
     @IBOutlet weak var messageLabel: UILabel!
     
     //code below executes when the app's view first loads
@@ -20,9 +21,25 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showMessagePressed(_ sender: UIButton) {
-        messageLabel.text = "You are awesome!"
+
+        let message1 = "You are fantastic!!!"
+        let message2 = "You are great!"
+        let message3 = "You are amazing!"
+        
+        if messageLabel.text == message1 {
+            messageLabel.text = message2
+            
+        } else if messageLabel.text == message2 {
+            messageLabel.text = message3
+        }else {
+            messageLabel.text = message1
+        }
+        
         
     }
+   
+    }
     
-}
+    
+
 
