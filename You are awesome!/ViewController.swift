@@ -33,7 +33,7 @@ class ViewController: UIViewController {
                         "You are tremendous!",
                         "You've got the design skills of Johnny Ive!",
                         "I can't wait to download your code!"]
-        messageLabel.text = messages[0]
+        messageLabel.text = messages[index]
         if index == messages.count-1 {
             index=0
         }else {index=index+1
