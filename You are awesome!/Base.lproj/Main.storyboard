@@ -39,11 +39,13 @@
                                     <action selector="showMessagePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ECj-0j-222"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="image1 (1).png" translatesAutoresizingMaskIntoConstraints="NO" id="5nI-0F-Vr4">
-                                <rect key="frame" x="16" y="166" width="333" height="459"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image1 (1).png" translatesAutoresizingMaskIntoConstraints="NO" id="5nI-0F-Vr4">
+                                <rect key="frame" x="26" y="166" width="333" height="459"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="333" id="B59-N2-Jm3"/>
                                     <constraint firstAttribute="height" constant="459" id="gsU-OA-ZCK"/>
                                     <constraint firstAttribute="width" constant="333" id="pAP-xr-kMA"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="459" id="uH7-Pb-mtC"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -54,12 +56,15 @@
                             <constraint firstItem="bwN-6y-pAj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6s0-JS-b5B"/>
                             <constraint firstItem="R1C-1W-PhC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="IGz-QP-iBj"/>
                             <constraint firstItem="5nI-0F-Vr4" firstAttribute="top" secondItem="bwN-6y-pAj" secondAttribute="bottom" constant="8" id="Pk8-Ue-Cmg"/>
+                            <constraint firstItem="5nI-0F-Vr4" firstAttribute="top" secondItem="bwN-6y-pAj" secondAttribute="bottom" constant="8" id="Ycq-Qc-03X"/>
                             <constraint firstItem="bwN-6y-pAj" firstAttribute="top" secondItem="R1C-1W-PhC" secondAttribute="bottom" constant="8" id="bUd-8P-XPN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5nI-0F-Vr4" secondAttribute="trailing" constant="16" id="wYA-nd-hdY"/>
                             <constraint firstItem="R1C-1W-PhC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="zJD-cq-cBl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="awesomeimage" destination="5nI-0F-Vr4" id="W78-ST-hh1"/>
                         <outlet property="messageLabel" destination="R1C-1W-PhC" id="aag-Qp-bdh"/>
                     </connections>
                 </viewController>
