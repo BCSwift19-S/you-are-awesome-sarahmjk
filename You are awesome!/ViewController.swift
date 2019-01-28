@@ -35,7 +35,8 @@ class ViewController: UIViewController {
                         "I can't wait to download your code!"]
         
 
-        var newIndex = -1
+//        var newIndex = -1
+        var newIndex: Int //declares but not initialize
         
         repeat {
             newIndex = Int.random (in: 0..<messages.count)
