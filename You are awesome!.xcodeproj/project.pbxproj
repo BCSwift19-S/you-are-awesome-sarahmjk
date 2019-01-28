@@ -12,6 +12,7 @@
 		2C1F538021EC0A54006A1370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1F537E21EC0A54006A1370 /* Main.storyboard */; };
 		2C1F538521EC0A56006A1370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1F538321EC0A56006A1370 /* LaunchScreen.storyboard */; };
 		2CF2B3DD21FEA1EE0012A5CD /* uareawesome in Resources */ = {isa = PBXBuildFile; fileRef = 2CF2B3DC21FEA1EE0012A5CD /* uareawesome */; };
+		2CF2B3DF21FEEBDC0012A5CD /* awesomesounds in Resources */ = {isa = PBXBuildFile; fileRef = 2CF2B3DE21FEEBDC0012A5CD /* awesomesounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2C1F538421EC0A56006A1370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C1F538621EC0A56006A1370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CF2B3DC21FEA1EE0012A5CD /* uareawesome */ = {isa = PBXFileReference; lastKnownFileType = folder; name = uareawesome; path = ../../../Desktop/uareawesome; sourceTree = "<group>"; };
+		2CF2B3DE21FEEBDC0012A5CD /* awesomesounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = awesomesounds; path = ../../../Desktop/awesomesounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				2C1F537A21EC0A54006A1370 /* AppDelegate.swift */,
 				2C1F537C21EC0A54006A1370 /* ViewController.swift */,
 				2C1F537E21EC0A54006A1370 /* Main.storyboard */,
+				2CF2B3DE21FEEBDC0012A5CD /* awesomesounds */,
 				2CF2B3DC21FEA1EE0012A5CD /* uareawesome */,
 				2C1F538321EC0A56006A1370 /* LaunchScreen.storyboard */,
 				2C1F538621EC0A56006A1370 /* Info.plist */,
@@ -124,6 +127,7 @@
 			files = (
 				2CF2B3DD21FEA1EE0012A5CD /* uareawesome in Resources */,
 				2C1F538521EC0A56006A1370 /* LaunchScreen.storyboard in Resources */,
+				2CF2B3DF21FEEBDC0012A5CD /* awesomesounds in Resources */,
 				2C1F538021EC0A54006A1370 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,22 +7,44 @@
 
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var awesomeimage: UIImageView!
-    
+   
+    @IBOutlet weak var Awesomeimage: UIImageView!
     @IBOutlet weak var messageLabel: UILabel!
+    var awesomePlayer = AVAudioPlayer()
     var index = -1
     var imageIndex = -1
+    var soundIndex = -1
     let numberOfImages = 10
-    
+    let numberOfSounds = 6
     
     //code below executes when the app's view first loads
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
+    }
+    
+    func playSound () {
+        //play sound
+        var soundName = "sound0"
+    //load filesound name
+    if let sound = NSDataAsset (name:soundName) {
+        // check if it is a sound file
+        do{
+            try awesomePlayer = AVAudioPlayer(data: sound.data)
+            awesomePlayer.play ()
+            
+        }catch {
+            print ("Error: file \(soundName) cannot be played")
+        }
+        
+    }else {
+    print ("Error: file \(soundName) didnt load" )
+    }
     }
 
     @IBAction func showMessagePressed(_ sender: UIButton) {
@@ -48,41 +70,23 @@ class ViewController: UIViewController {
         index = newIndex
         messageLabel.text = messages [index]
         
+        //show random image
+        
         repeat {
             newIndex = Int.random(in: 0..<numberOfImages)
         }while imageIndex == newIndex
         
         imageIndex = newIndex
-        awesomeimage.image = UIImage (named: "image \(imageIndex) ")
+        Awesomeimage.image = UIImage (named: "image \(imageIndex) ")
         
+        //play random sound
+        repeat {
+            newIndex = Int.random(in: 0..<numberOfImages)
+        }while soundIndex == newIndex
         
-//        messageLabel.text = messages.randomElement ()!
+        soundIndex = newIndex
         
-        
-        
-        
-//        messageLabel.text = messages[index]
-//        if index == messages.count-1 {
-//            index=0
-//        }else {index=index+1
-//
-//        }
-        
-
-        
-//        let message1 = "You are fantastic!!!"
-//        let message2 = "You are great!"
-//        let message3 = "You are amazing!"
-//
-//        if messageLabel.text == message1 {
-//            messageLabel.text = message2
-//
-//        } else if messageLabel.text == message2 {
-//            messageLabel.text = message3
-//        }else {
-//            messageLabel.text = message1
-//        }
-//
+        playSound()
         
     }
    
