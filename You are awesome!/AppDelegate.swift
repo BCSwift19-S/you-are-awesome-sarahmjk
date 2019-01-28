@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  You Are Awesome!
+//  You are awesome!
 //
-//  Created by Sarah Minji Kim on 1/28/19.
+//  Created by Sarah Minji Kim on 1/13/19.
 //  Copyright © 2019 Sarah Minji Kim. All rights reserved.
 //
 

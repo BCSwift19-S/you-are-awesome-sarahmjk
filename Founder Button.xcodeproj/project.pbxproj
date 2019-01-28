@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CF2B3FB21FFA8D20012A5CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF2B3FA21FFA8D20012A5CD /* AppDelegate.swift */; };
-		2CF2B3FD21FFA8D20012A5CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF2B3FC21FFA8D20012A5CD /* ViewController.swift */; };
-		2CF2B40021FFA8D20012A5CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF2B3FE21FFA8D20012A5CD /* Main.storyboard */; };
-		2CF2B40221FFA8D40012A5CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF2B40121FFA8D40012A5CD /* Assets.xcassets */; };
-		2CF2B40521FFA8D40012A5CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF2B40321FFA8D40012A5CD /* LaunchScreen.storyboard */; };
+		2C76E80521F923DD00AEE4C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C76E80421F923DD00AEE4C6 /* AppDelegate.swift */; };
+		2C76E80721F923DD00AEE4C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C76E80621F923DD00AEE4C6 /* ViewController.swift */; };
+		2C76E80A21F923DD00AEE4C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C76E80821F923DD00AEE4C6 /* Main.storyboard */; };
+		2C76E80C21F923DE00AEE4C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C76E80B21F923DE00AEE4C6 /* Assets.xcassets */; };
+		2C76E80F21F923DE00AEE4C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C76E80D21F923DE00AEE4C6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2CF2B3F721FFA8D20012A5CD /* You Are Awesome!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "You Are Awesome!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CF2B3FA21FFA8D20012A5CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CF2B3FC21FFA8D20012A5CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2CF2B3FF21FFA8D20012A5CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2CF2B40121FFA8D40012A5CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2CF2B40421FFA8D40012A5CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2CF2B40621FFA8D40012A5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C76E80121F923DD00AEE4C6 /* Founder Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Founder Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C76E80421F923DD00AEE4C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C76E80621F923DD00AEE4C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C76E80921F923DD00AEE4C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C76E80B21F923DE00AEE4C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C76E80E21F923DE00AEE4C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C76E81021F923DE00AEE4C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2CF2B3F421FFA8D20012A5CD /* Frameworks */ = {
+		2C76E7FE21F923DD00AEE4C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2CF2B3EE21FFA8D20012A5CD = {
+		2C76E7F821F923DD00AEE4C6 = {
 			isa = PBXGroup;
 			children = (
-				2CF2B3F921FFA8D20012A5CD /* You Are Awesome! */,
-				2CF2B3F821FFA8D20012A5CD /* Products */,
+				2C76E80321F923DD00AEE4C6 /* Founder Button */,
+				2C76E80221F923DD00AEE4C6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2CF2B3F821FFA8D20012A5CD /* Products */ = {
+		2C76E80221F923DD00AEE4C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CF2B3F721FFA8D20012A5CD /* You Are Awesome!.app */,
+				2C76E80121F923DD00AEE4C6 /* Founder Button.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2CF2B3F921FFA8D20012A5CD /* You Are Awesome! */ = {
+		2C76E80321F923DD00AEE4C6 /* Founder Button */ = {
 			isa = PBXGroup;
 			children = (
-				2CF2B3FA21FFA8D20012A5CD /* AppDelegate.swift */,
-				2CF2B3FC21FFA8D20012A5CD /* ViewController.swift */,
-				2CF2B3FE21FFA8D20012A5CD /* Main.storyboard */,
-				2CF2B40121FFA8D40012A5CD /* Assets.xcassets */,
-				2CF2B40321FFA8D40012A5CD /* LaunchScreen.storyboard */,
-				2CF2B40621FFA8D40012A5CD /* Info.plist */,
+				2C76E80421F923DD00AEE4C6 /* AppDelegate.swift */,
+				2C76E80621F923DD00AEE4C6 /* ViewController.swift */,
+				2C76E80821F923DD00AEE4C6 /* Main.storyboard */,
+				2C76E80B21F923DE00AEE4C6 /* Assets.xcassets */,
+				2C76E80D21F923DE00AEE4C6 /* LaunchScreen.storyboard */,
+				2C76E81021F923DE00AEE4C6 /* Info.plist */,
 			);
-			path = "You Are Awesome!";
+			path = "Founder Button";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2CF2B3F621FFA8D20012A5CD /* You Are Awesome! */ = {
+		2C76E80021F923DD00AEE4C6 /* Founder Button */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CF2B40921FFA8D40012A5CD /* Build configuration list for PBXNativeTarget "You Are Awesome!" */;
+			buildConfigurationList = 2C76E81321F923DE00AEE4C6 /* Build configuration list for PBXNativeTarget "Founder Button" */;
 			buildPhases = (
-				2CF2B3F321FFA8D20012A5CD /* Sources */,
-				2CF2B3F421FFA8D20012A5CD /* Frameworks */,
-				2CF2B3F521FFA8D20012A5CD /* Resources */,
+				2C76E7FD21F923DD00AEE4C6 /* Sources */,
+				2C76E7FE21F923DD00AEE4C6 /* Frameworks */,
+				2C76E7FF21F923DD00AEE4C6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "You Are Awesome!";
-			productName = "You Are Awesome!";
-			productReference = 2CF2B3F721FFA8D20012A5CD /* You Are Awesome!.app */;
+			name = "Founder Button";
+			productName = "Founder Button";
+			productReference = 2C76E80121F923DD00AEE4C6 /* Founder Button.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2CF2B3EF21FFA8D20012A5CD /* Project object */ = {
+		2C76E7F921F923DD00AEE4C6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Sarah Minji Kim";
 				TargetAttributes = {
-					2CF2B3F621FFA8D20012A5CD = {
+					2C76E80021F923DD00AEE4C6 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 2CF2B3F221FFA8D20012A5CD /* Build configuration list for PBXProject "You Are Awesome!" */;
+			buildConfigurationList = 2C76E7FC21F923DD00AEE4C6 /* Build configuration list for PBXProject "Founder Button" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 2CF2B3EE21FFA8D20012A5CD;
-			productRefGroup = 2CF2B3F821FFA8D20012A5CD /* Products */;
+			mainGroup = 2C76E7F821F923DD00AEE4C6;
+			productRefGroup = 2C76E80221F923DD00AEE4C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CF2B3F621FFA8D20012A5CD /* You Are Awesome! */,
+				2C76E80021F923DD00AEE4C6 /* Founder Button */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2CF2B3F521FFA8D20012A5CD /* Resources */ = {
+		2C76E7FF21F923DD00AEE4C6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CF2B40521FFA8D40012A5CD /* LaunchScreen.storyboard in Resources */,
-				2CF2B40221FFA8D40012A5CD /* Assets.xcassets in Resources */,
-				2CF2B40021FFA8D20012A5CD /* Main.storyboard in Resources */,
+				2C76E80F21F923DE00AEE4C6 /* LaunchScreen.storyboard in Resources */,
+				2C76E80C21F923DE00AEE4C6 /* Assets.xcassets in Resources */,
+				2C76E80A21F923DD00AEE4C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2CF2B3F321FFA8D20012A5CD /* Sources */ = {
+		2C76E7FD21F923DD00AEE4C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CF2B3FD21FFA8D20012A5CD /* ViewController.swift in Sources */,
-				2CF2B3FB21FFA8D20012A5CD /* AppDelegate.swift in Sources */,
+				2C76E80721F923DD00AEE4C6 /* ViewController.swift in Sources */,
+				2C76E80521F923DD00AEE4C6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2CF2B3FE21FFA8D20012A5CD /* Main.storyboard */ = {
+		2C76E80821F923DD00AEE4C6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2CF2B3FF21FFA8D20012A5CD /* Base */,
+				2C76E80921F923DD00AEE4C6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2CF2B40321FFA8D40012A5CD /* LaunchScreen.storyboard */ = {
+		2C76E80D21F923DE00AEE4C6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2CF2B40421FFA8D40012A5CD /* Base */,
+				2C76E80E21F923DE00AEE4C6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2CF2B40721FFA8D40012A5CD /* Debug */ = {
+		2C76E81121F923DE00AEE4C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		2CF2B40821FFA8D40012A5CD /* Release */ = {
+		2C76E81221F923DE00AEE4C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,36 +278,36 @@
 			};
 			name = Release;
 		};
-		2CF2B40A21FFA8D40012A5CD /* Debug */ = {
+		2C76E81421F923DE00AEE4C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2DA9QX22AS;
-				INFOPLIST_FILE = "You Are Awesome!/Info.plist";
+				INFOPLIST_FILE = "Founder Button/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kim.You-Are-Awesome-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kim.Founder-Button";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2CF2B40B21FFA8D40012A5CD /* Release */ = {
+		2C76E81521F923DE00AEE4C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2DA9QX22AS;
-				INFOPLIST_FILE = "You Are Awesome!/Info.plist";
+				INFOPLIST_FILE = "Founder Button/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kim.You-Are-Awesome-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kim.Founder-Button";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,25 +317,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CF2B3F221FFA8D20012A5CD /* Build configuration list for PBXProject "You Are Awesome!" */ = {
+		2C76E7FC21F923DD00AEE4C6 /* Build configuration list for PBXProject "Founder Button" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2CF2B40721FFA8D40012A5CD /* Debug */,
-				2CF2B40821FFA8D40012A5CD /* Release */,
+				2C76E81121F923DE00AEE4C6 /* Debug */,
+				2C76E81221F923DE00AEE4C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CF2B40921FFA8D40012A5CD /* Build configuration list for PBXNativeTarget "You Are Awesome!" */ = {
+		2C76E81321F923DE00AEE4C6 /* Build configuration list for PBXNativeTarget "Founder Button" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2CF2B40A21FFA8D40012A5CD /* Debug */,
-				2CF2B40B21FFA8D40012A5CD /* Release */,
+				2C76E81421F923DE00AEE4C6 /* Debug */,
+				2C76E81521F923DE00AEE4C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2CF2B3EF21FFA8D20012A5CD /* Project object */;
+	rootObject = 2C76E7F921F923DD00AEE4C6 /* Project object */;
 }
