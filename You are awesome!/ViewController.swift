@@ -27,16 +27,24 @@ class ViewController: UIViewController {
         
         
     }
+    func nonRepeatingRandom (lastNumber: Int, maxValue: Int) -> Int {
+        var newIndex: Int
+        repeat {
+            newIndex = Int.random (in: 0..<maxValue)
+        }while lastNumber == newIndex
+        
+        return newIndex
+        
+        
+    }
     
-    func playSound () {
-        //play sound
-        var soundName = "sound0"
+    func playSound (soundName: String, audioPlayer: inout AVAudioPlayer) {
     //load filesound name
     if let sound = NSDataAsset (name:soundName) {
         // check if it is a sound file
         do{
-            try awesomePlayer = AVAudioPlayer(data: sound.data)
-            awesomePlayer.play ()
+            try audioPlayer = AVAudioPlayer(data: sound.data)
+            audioPlayer.play ()
             
         }catch {
             print ("Error: file \(soundName) cannot be played")
@@ -61,32 +69,19 @@ class ViewController: UIViewController {
         
 
 //        var newIndex = -1
-        var newIndex: Int //declares but not initialize
-        
-        repeat {
-            newIndex = Int.random (in: 0..<messages.count)
-        }while index == newIndex
-        
-        index = newIndex
+       index = nonRepeatingRandom(lastNumber: index, maxValue: messages.count)
         messageLabel.text = messages [index]
         
         //show random image
-        
-        repeat {
-            newIndex = Int.random(in: 0..<numberOfImages)
-        }while imageIndex == newIndex
-        
-        imageIndex = newIndex
+        index = nonRepeatingRandom(lastNumber: imageIndex, maxValue: numberOfImages)
         Awesomeimage.image = UIImage (named: "image \(imageIndex) ")
         
         //play random sound
-        repeat {
-            newIndex = Int.random(in: 0..<numberOfImages)
-        }while soundIndex == newIndex
+        index = nonRepeatingRandom(lastNumber: soundIndex, maxValue: numberOfSounds)
+        //play sound
+        let soundName = "Sound\(soundIndex)"
+        playSound(soundName: soundName, audioPlayer: &awesomePlayer)
         
-        soundIndex = newIndex
-        
-        playSound()
         
     }
    
